@@ -1,0 +1,45 @@
+$color1:#11999E;
+$color2:white;
+$color3:#C70039;
+li{
+    color: $color1;
+}
+li:hover{
+    color: $color2;
+}
+th{
+    color: $color2;
+}
+td{
+    color: $color1;
+}
+td:hover{
+    color: $color2;
+}
+
+%roundbox{
+    border-radius: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.row{
+    @extend %roundbox;
+    background-image: url('images/email-pattern.png');
+    padding-left: 10px;
+    padding-right: 10px;
+
+    div[name='bold']{
+        text-align: center;
+    }
+
+    div[name='title']{
+        color:$color3;
+    }
+}
+
+ul>li{
+    color: #d4af37;
+}

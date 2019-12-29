@@ -1,0 +1,44 @@
+li {
+  color: #11999E;
+}
+
+li:hover {
+  color: white;
+}
+
+th {
+  color: white;
+}
+
+td {
+  color: #11999E;
+}
+
+td:hover {
+  color: white;
+}
+
+.row {
+  border-radius: 20px;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.row {
+  background-image: url("images/email-pattern.png");
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.row div[name=bold] {
+  text-align: center;
+}
+.row div[name=title] {
+  color: #C70039;
+}
+
+ul > li {
+  color: #d4af37;
+}
+
+/*# sourceMappingURL=style.css.map */
