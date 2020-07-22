@@ -1,131 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body{
-          background-image: url('images/email-pattern.png');
-        }
-        a[name='mazil']{
-            font-family: 'Pacifico', cursive;
-        }
-        .bottom-container{
-            background-color: #66BFBF;
-            padding: 50px 0 20px;
-            text-align: center;
-            }
-            a{
-            color: #11999E;
-            font-family: 'Montserrat', sans-serif;
-            margin: 10px 20px;
-            text-decoration: none;
-            
-            }
-            a:hover{
-            color: #EAF6F6;
-            text-decoration: none;
-            }
-            .copyright{
-            color: #EAF6F6;
-            font-size: 0.75rem;
-            padding: 20px 0;
-            }
-            .container{
-                margin-top: 6%;
-                margin-bottom: 6%;
-            }
-            h3{
-                color: azure;
-            }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-            .jumbotron{
-                border-radius: 20px;
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-image: url('images/email-pattern.png');
+    }
 
-            }
+    a[name='mazil'] {
+      font-family: 'Pacifico', cursive;
+    }
 
-            div[name='bold']{
-                font-size: 35px;
-                font-weight: normal;
-                padding-bottom: 1em;
-                padding-top: 1em;
-                color:#11999E;
-                font-family: 'Pacifico', cursive;
-                padding-left: 10px;
-            }
-            div[name='title']{
-                font-weight: bolder;
-                padding-bottom: 20px;
-                padding-left: 10px;
-            }
-            div[name='description']{
-                text-align: justify;
-                padding-bottom: 20px;
-                padding-left: 10px;
-            }
-    </style>
-    <title>Projects</title>
+    .bottom-container {
+      background-color: #66BFBF;
+      padding: 50px 0 20px;
+      text-align: center;
+    }
+
+    a {
+      color: #11999E;
+      font-family: 'Montserrat', sans-serif;
+      margin: 10px 20px;
+      text-decoration: none;
+
+    }
+
+    a:hover {
+      color: #EAF6F6;
+      text-decoration: none;
+    }
+
+    .copyright {
+      color: #EAF6F6;
+      font-size: 0.75rem;
+      padding: 20px 0;
+    }
+
+    .container {
+      margin-top: 6%;
+      margin-bottom: 6%;
+    }
+
+    h3 {
+      color: azure;
+    }
+
+    .jumbotron {
+      border-radius: 20px;
+
+    }
+
+    div[name='bold'] {
+      font-size: 35px;
+      font-weight: normal;
+      padding-bottom: 1em;
+      padding-top: 1em;
+      color: #11999E;
+      font-family: 'Pacifico', cursive;
+      padding-left: 10px;
+    }
+
+    div[name='title'] {
+      font-weight: bolder;
+      padding-bottom: 20px;
+      padding-left: 10px;
+    }
+
+    div[name='description'] {
+      text-align: justify;
+      padding-bottom: 20px;
+      padding-left: 10px;
+    }
+  </style>
+  <title>Projects</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html" name='mazil'>Mazil</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="achievements.html" id="achievement">My Achievements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="skills.html">My Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="academics.html">My Academics</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">My Projects</a>
-          </li>
-        </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html" name='mazil'>Mazil</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="achievements.html" id="achievement">My Achievements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skills.html">My Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="academics.html">My Academics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">My Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="jumbotron bg-dark">
+      <div class="row">
+        <div class="col-4" name='bold'>Project Title</div>
+        <div class="col-8" name='bold'>Description</div>
+        <div class="col-4" name='title'>RFID Based Hospital Management System</div>
+        <div class="col-8" name='description'>RFID is one of the emerging technologies offering a solution, which can
+          facilitate automating and streamlining safe and accurate patient identification, tracking, and processing
+          important health related information.RFID tag is identified by a Unique Identification Number (UIN) that can
+          be programmed either automatically or manually. It can also be used to store patient important data (such as
+          name, patient ID, drug allergies, blood group, and so on) in order to dynamically inform staff before
+          critical. RFID technology provides a method to transmit and receive data from a patient to health service
+          provider/medical professionals without human intervention (i.e., wireless communication).</div>
+        <div class="col-4" name='title'>Secured Blog website using Django</div>
+        <div class="col-8" name='description'>If your goal is to make a reliable and secure web app, you're going to
+          spend some time thinking about data integrity. It's a truism that if your users can put bad data in your
+          database, they will. Django comes with a fair bit of support out of the box for data validation. A ForeignKey
+          will create a database level constraint and the unique_together attribute gives you the ability to add some
+          more complex database level constraints, but often you'll have real world constraints on your data that aren't
+          neatly captured by Django's built in constraints, but could be enforced by your relational database. </div>
+        <div class="col-4" name='title'>GST BILLING SYSTEM</div>
+        <div class="col-8" name='description'>It is a python module which is able to do the task of billing with GST for
+          big value products and cargo products. Use of pandas library for converting CSV database into Excel file. Use
+          of python-docx library for the generation of Invoice bill of the product.</div>
+        <div class="col-4" name='title'>Responsive Design website with hit counter.</div>
+        <div class="col-8" name='description'>Responsive and fully Functional website using HTML5,CSS3,JavaScript, PHP
+          and jQuery. (A multi-purpose Basic Responsive website can be created using This Technique.)</div>
       </div>
-    </nav>
-      <div class="container">
-          <div class="jumbotron bg-dark">
-            <div class="row">
-             <div class="col-4" name='bold'>Project Title</div>
-             <div class="col-8" name='bold'>Description</div>
-             <div class="col-4" name='title'>RFID Based Hospital Management System</div>
-             <div class="col-8" name='description'>RFID is one of the emerging technologies offering a solution, which can facilitate automating and streamlining safe and accurate patient identification, tracking, and processing important health related information.RFID tag is identified by a Unique Identification Number (UIN) that can be programmed either automatically or manually. It can also be used to store patient important data (such as name, patient ID, drug allergies, blood group, and so on) in order to dynamically inform staff before critical. RFID technology provides a method to transmit and receive data from a patient to health service provider/medical professionals without human intervention (i.e., wireless communication).</div>
-             <div class="col-4" name='title'>Secured Blog website using Django</div>
-             <div class="col-8" name='description'>If your goal is to make a reliable and secure web app, you're going to spend some time thinking about data integrity. It's a truism that if your users can put bad data in your database, they will. Django comes with a fair bit of support out of the box for data validation. A ForeignKey will create a database level constraint and the unique_together attribute gives you the ability to add some more complex database level constraints, but often you'll have real world constraints on your data that aren't neatly captured by Django's built in constraints, but could be enforced by your relational database. </div>
-                <div class="col-4" name='title'>GST BILLING SYSTEM</div>
-                <div class="col-8" name='description'>It is a python module which is able to do the task of billing with GST for big value products and cargo products. Use of pandas library for converting CSV database into Excel file. Use of python-docx library for the generation of Invoice bill of the product.</div>
-                <div class="col-4" name='title'>Responsive Design website with hit counter.</div>
-                <div class="col-8" name='description'>Responsive and fully Functional website using HTML5,CSS3,JavaScript, PHP and jQuery. (A multi-purpose Basic Responsive website can be created using This Technique.)</div>
-            </div>
 
-          </div>
+    </div>
 
-      </div>
+  </div>
 
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/mazil-khatib-730b62146" target="_blank">LinkedIn</a>
-        <a class="footer-link" href="https://www.lembog.com/" target="_blank">Website</a>
-        <p class="copyright">© 2019 Mazil Khatib.</p>
-      </div>
-    
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/mazil-khatib-730b62146" target="_blank">LinkedIn</a>
+    <a class="footer-link" href="https://www.lembog.com/" target="_blank">Website</a>
+    <p class="copyright">© 2019 Mazil Khatib.</p>
+  </div>
+
 </body>
+
 </html>
